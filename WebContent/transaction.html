@@ -1,0 +1,40 @@
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JSP Page</title>
+</head>
+<body style="text-align: center">
+	<h1>MexiBills Solutions Pvt.Ltd</h1>
+	<br>
+	<br>
+
+	<h1>Payment</h1>
+	<form action="payment">
+
+		billstatus:<input type="text" name="txtbillstatus" value="notpaid" /><br></br>
+		paymentmode:<select name="txtpaymentmode">
+			<option>select</option>
+			<option>debit</option>
+			<option>credit</option>
+		</select><br></br> cardnum:<input type="text" name="txtcardnum" value="" /><br></br>
+		cardvalidity:<select name="txtcardvalidity">
+			<option>select</option>
+			<option>2024</option>
+			<option>2030</option>
+			<option>2032</option>
+			<option>2034</option>
+			<option>2035</option>
+			<option>2036</option>
+			<option>2037</option>
+			<option>2038</option>
+			<option>2039</option>
+		</select><br></br> cvv:<input type="password" name="txtcvv" value="" /><br></br>
+
+		paymentdate:<input type="text" name="txtpaymentdate" value="" /><br></br>
+		<input type="submit" value="submit" />
+	</form>
+</body>
+
+</html>
